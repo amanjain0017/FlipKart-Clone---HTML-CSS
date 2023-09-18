@@ -18,6 +18,12 @@ This project aims to replicate the basic design and layout of the popular e-comm
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![ss1](https://github.com/amanjain0017/FlipKart-Clone---HTML-CSS/assets/132781670/22324121-dba2-44b4-8ba2-6040cab8a221)
+
+
+
+
+![ss3](https://github.com/amanjain0017/FlipKart-Clone---HTML-CSS/assets/132781670/57ae8916-c57f-45b9-bfff-0e462ff4d1d6)
+
+
 
