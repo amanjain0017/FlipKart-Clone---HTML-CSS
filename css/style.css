@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 89px;
+  padding: 0 55px;
+}
+
+nav ul {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+  width: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  font-weight: bolder; /* Use 'bold' instead of 'bolder' */
+  /* Optionally, you can also use a transition to make the change smoother */
+  transition: font-weight 0.3s;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 14px 0 60px;
+    padding: 0 12px;
+}
+
+
+.search button {
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+}
+
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card {
+
+    max-width: 95vw;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.item{
+    display: flex;
+    /* justify-content: center; */
+    overflow: scroll;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 16px;
+    background-color: #ffebcd21;
+}
+
+.card h2{
+    font-weight: bolder;
+}
+
+.container {
+  min-height: calc(100vh - 12vh - 60px);
+  background-color: #80808021;
+}
+
+footer {
+  background-color: var(--main-bg-color);
+  height: 12vh;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
